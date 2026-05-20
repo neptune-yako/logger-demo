@@ -1,0 +1,11 @@
+# 1. 初始化 package.json (如果尚未初始化)
+npm init -y
+
+# 2. 安装 TypeScript 环境和 Node 类型定义（作为开发依赖）
+npm install -D typescript @types/node
+
+# 3. (可选) 安装 tsx 方便直接运行 TS 文件，虽然 npx 也会自动提示安装
+npm install -D tsx
+
+# 4. 运行示例代码
+npx tsx demo.ts
