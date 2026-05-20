@@ -1,3 +1,4 @@
 *.log
 uploads/
 /md
+node_modules/
